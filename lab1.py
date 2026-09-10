@@ -1,0 +1,57 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "28810624",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "enter a number: 5\n",
+      "5 + 55 + 555 = 615\n"
+     ]
+    }
+   ],
+   "source": [
+    "#compute n+nn+nnn\n",
+    "num=int(input(\"enter a number: \"))\n",
+    "num1=num\n",
+    "num2=num*10+num1\n",
+    "num3=num*100+num2\n",
+    "print(num1,\"+\",num2,\"+\",num3,\"=\",num1+num2+num3)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "a3cfd74c",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.11.4"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
